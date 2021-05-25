@@ -189,8 +189,8 @@
     <script>
         var typed = new Typed('#typed', {
             strings: ['git push --force ^1000\n `fontions ....`', 'Mobile Dev.',
-                '^2000Web Dev.', '^2000Googleur Professionnel',
-                '^2000Beau &#128540 (^1000Oui, c\'est aussi une fonction)'
+                '^2000Web Dev.', '^2000Googleur Pro',
+                '^2000Beau à certains moments (^1000Oui, c\'est aussi une fonction)'
             ],
             smartBackspace: true,
             typeSpeed: 100,
