@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="{{ asset('welcome/css/style-starter.css') }}">
     <link rel="stylesheet" href="{{ asset('welcome/css/perso.css') }}">
 
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap" rel="stylesheet">
     <style>
         /* Progress bar */
+        *{
+            font-family: "Karla", sans-serif; /* Default font */
+        }
         #progress {
             width: 100%;
             border-radius: 10px;
