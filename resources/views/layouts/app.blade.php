@@ -33,7 +33,7 @@
             padding: 5px 5px;
             background-color: #ffc845;
             /* Fill colour */
-            width: 30%;
+            width: 65%;
             border-radius: 10px;
             animation: proanimate 2s;
         }

@@ -51,7 +51,7 @@
                         <div id="progress" class="mt-5">
                             <div id="fill">
                                 <div id="barpercent">
-                                    <h3>30%</h3>
+                                    <h3>65%</h3>
                                 </div>
                             </div>
                         </div>
