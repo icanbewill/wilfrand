@@ -12,11 +12,16 @@
     <link rel="stylesheet" href="{{ asset('welcome/css/perso.css') }}">
 
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
     <style>
         /* Progress bar */
-        *{
-            font-family: "Karla", sans-serif; /* Default font */
+        * {
+            font-family: "Karla", sans-serif;
+            /* Default font */
         }
+
         #progress {
             width: 100%;
             border-radius: 10px;
@@ -85,7 +90,7 @@
         <div class="container" id="">
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <a class="navbar-brand d-flex align-items-center" href="{{ route('/') }}">
                         <span class="lostyle-1">W</span>
                         ilfrand
                     </a>
@@ -104,19 +109,19 @@
                             <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Qui suis-je ? </a>
+                            <a class="nav-link" href="#about">A Popos de moi </a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="#">Techs</a>
-                        </li>
-                        <li class="nav-item">
+                        </li> --}}
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="#">Curriculum</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contactez-moi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contactez-moi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ne cliquez pas ici !</a>
+                            <a class="nav-link" href="#">Blog !</a>
                         </li>
 
                     </ul>
@@ -133,57 +138,109 @@
         <span class="fas fa-level-up-alt" aria-hidden="true"></span>
     </button> --}}
 
+    <!-- footer -->
+    <footer id="footer" class="w3l-footer-22 py-5">
+        <div class="container py-md-5 py-4">
+            <div class="row sub-columns">
+                <div class="col-lg-4 col-sm-6 sub-one-left">
+                    <h6>À Propos </h6>
+                    <p>Loin d'être un simple portfolio, ce site se veut être un mirroir de ma personnalité.</p>
+                    <div class="columns-2">
+                        <ul class="social">
+                            <li><a href="https://facebook.com/wilfrand.atchi" title="facebook"><span
+                                        class="fab fa-facebook-f" aria-hidden="true"></span></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/mrwilfrand/" title="linkedin"><span
+                                        class="fab fa-linkedin-in" aria-hidden="true"></span></a>
+                            </li>
+                            <li><a href="https://twitter.com/mrwilfrand" title="twitter"><span class="fab fa-twitter"
+                                        aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-sm-0 mt-5">
+                    <h6>Mes services</h6>
+                    <ul>
+                        <li><a href="{{ route('/') }}"><span class="fas fa-angle-right mr-2"></span>Développement
+                                Web</a>
+                        </li>
+                        <li><a href="{{ route('/') }}"><span class="fas fa-angle-right mr-2"></span>Développement
+                                Mobile</a>
+                        </li>
+                        <li><a href="{{ route('/') }}"><span class="fas fa-angle-right mr-2"></span>Développement
+                                AI</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6 sub-two-right mt-lg-0 mt-sm-5 mt-4">
+                    <h6>Liens rapides</h6>
+                    <ul>
+                        <li><a href="{{ route('/') }}"><span class="fas fa-angle-right mr-2"></span>Accueil</a>
+                        </li>
+                        <li><a href="{{ route('/') }}"><span class="fas fa-angle-right mr-2"></span>A Propos</a>
+                        </li>
+                        <li><a href="{{ route('/') }}"><span
+                                    class="fas fa-angle-right mr-2"></span>Contactez-moi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
+                    <h6>Support</h6>
+                    <ul>
+                        <li><a href="{{ route('/') }}"><span class="fas fa-angle-right mr-2"></span>Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-contact mt-5 pt-lg-4">
+                <div class="row">
+                    <div class="col-md-4 footer-contact d-flex align-items-center">
+                        <span class="fas fa-envelope-open" aria-hidden="true"></span>
+                        <div>
+                            <a href="mailto:atchiwilfrand@gmail.com">atchiwilfrand@gmail.com</a>
+                            <p>Déposez-moi un joli message</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-contact d-flex align-items-center active">
+                        <span class="fas fa-phone-alt" aria-hidden="true"></span>
+                        <div>
+                            <a href="tel:+229 XX XX XX XX">+229 XX XX XX XX</a>
+                            <p>Appelez-moi (si vous décodez le numéro)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 footer-contact d-flex align-items-center">
+                        <span class="fas fa-map-marker-alt" aria-hidden="true"></span>
+                        <div>
+                            <h5> Planète Terre, Continent A.</h5>
+                            <p>Retrouvez-moi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="copyright-footer text-center">
+            <div class="container">
+                <div class="columns">
+                    <p>@2021 Tous droits reservés !
+                        <a href="https://wilfrand.com/"> YINWE</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- //copyright -->
+    </footer>
+    <!-- //footer -->
+
 
 
 
     @section('scripts')
 
     @endsection
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction()
-        };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("movetop").style.display = "block";
-            } else {
-                document.getElementById("movetop").style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-    </script>
-    <!-- //move top -->
-
-    <!-- common jquery plugin -->
     <script src="{{ asset('welcome/js/jquery-3.3.1.min.js') }}"></script>
-    <!-- //common jquery plugin -->
-
-    <!-- owl carousel -->
     <script src="{{ asset('welcome/js/owl.carousel.js') }}"></script>
-    <!-- script for tesimonials carousel slider -->
-    <!-- <script>
-        $(document).ready(function () {
-            $(".owl-wilfrand").owlCarousel({
-                // loop: true,
-                // nav: false,
-                // margin: 50,
-                responsiveClass: true,
-                // autoplay: true,
-                autoplayTimeout: 5000,
-                autoplaySpeed: 1000,
-                autoplayHoverPause: true,
-            })
-        })
-    </script> -->
-
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <script>
@@ -240,9 +297,6 @@
 
     </script>
     <!-- //magnific popup -->
-
-    <!-- theme switch js (light and dark)-->
-    <script src="{{ asset('welcome/js/theme-change.js') }}"></script>
 
     <!-- MENU-JS -->
     <script>
