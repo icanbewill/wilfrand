@@ -6,7 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Wilfrand ATCHI</title>
-    <meta name="description" content="Site Web de ATCHI Wilfrand, représentant son portfolio, son CV, et autres">
+    <meta name="description" content="Wilfrand ATCHI, Développeur 360°, et exprit créatif qui, à l'aide d'un clavier QWERTY essaie de donner vie à vos rêves !">
+    <meta name="keyword" content="Wilfrand, ATCHI, developer, Wilfrand ATCHI, wilfrand.com, Portfolio wilfrand, site web wilfrand">
+
+    <meta property="og:title" content="Wilfrand ATCHI | Developer"/>
+    <meta property="og:description" content="JavaScript wizard, chaotic good" />
+    {{-- <meta property="og:image" content="https://example.com/image.jpg"/> --}}
+    <meta property="og:url" content="https://wilfrand.com" />
+    <meta property="og:type" content="website" />
+
     <link rel="stylesheet" href="{{ asset('welcome/css/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('welcome/css/style-starter.css') }}">
     <link rel="stylesheet" href="{{ asset('welcome/css/perso.css') }}">
