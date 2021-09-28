@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('/');
 
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

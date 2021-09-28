@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Wilfrand ATCHI</title>
-    <meta name="description" content="Wilfrand ATCHI, Développeur 360°, et exprit créatif qui, à l'aide d'un clavier QWERTY essaie de donner vie à vos rêves !">
-    <meta name="keyword" content="Wilfrand, ATCHI, developer, Wilfrand ATCHI, wilfrand.com, Portfolio wilfrand, site web wilfrand">
+    <meta name="description"
+        content="Wilfrand ATCHI, Développeur 360°, et esprit créatif qui, à l'aide d'un clavier QWERTY essaie de donner vie à vos rêves !">
+    <meta name="keyword"
+        content="Wilfrand, ATCHI, developer, Wilfrand ATCHI, wilfrand.com, Portfolio wilfrand, site web wilfrand">
 
-    <meta property="og:title" content="Wilfrand ATCHI | Developer"/>
+    <meta property="og:title" content="Wilfrand ATCHI | Developer" />
     <meta property="og:description" content="JavaScript wizard, chaotic good" />
     {{-- <meta property="og:image" content="https://example.com/image.jpg"/> --}}
     <meta property="og:url" content="https://wilfrand.com" />
@@ -114,14 +116,15 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{ route('/') }}">Accueil <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">A Popos de moi </a>
+                            <a class="nav-link" href="#about">A Propos de moi </a>
                         </li>
-                        {{-- <li class="nav-item">
-                            <a class="nav-link" href="#">Techs</a>
-                        </li> --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('portfolio') }}">Mon portfolio</a>
+                        </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="#">Curriculum</a>
                         </li> --}}
