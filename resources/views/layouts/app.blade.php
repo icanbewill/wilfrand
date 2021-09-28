@@ -14,7 +14,7 @@
     {{-- <meta property="og:image" content="https://example.com/image.jpg"/> --}}
     <meta property="og:url" content="https://wilfrand.com" />
     <meta property="og:type" content="website" />
-
+    <meta name="google-site-verification" content="YQx-FsydDSd2OdsqeDIykulNO1u49W3nQNzfQ_8UTE0" />
     <link rel="stylesheet" href="{{ asset('welcome/css/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('welcome/css/style-starter.css') }}">
     <link rel="stylesheet" href="{{ asset('welcome/css/perso.css') }}">
