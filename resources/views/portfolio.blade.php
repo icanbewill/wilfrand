@@ -67,20 +67,20 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/gs.png') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
                                 <div class="portfolio-info">
                                     <h3 class="mb-0">
-                                        <a href="" class="portfolio-title">Geri-Services</a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.dextrem.geriservices" class="portfolio-title">Geri-Services</a>
                                     </h3>
                                     <span class="text-white">Application web & mobile de Gestion de syndics & cotisations à
                                         caractère d'épargne, Commande d'artisans</span>
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/gs.png') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -94,7 +94,7 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/etk.png') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
@@ -107,7 +107,7 @@
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/etk.png') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -121,7 +121,7 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/bifal.png') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/bifal.png') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -148,7 +148,7 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/kaawan.png') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
@@ -156,12 +156,12 @@
                                     <h3 class="mb-0">
                                         <a href="" class="portfolio-title">MAMAS FOOD / KAAWAN</a>
                                     </h3>
-                                    <span class="text-white">Application mobiles de géolocation pour streetfood, commande &
+                                    <span class="text-white">Application mobile de géolocation pour streetfood, commande &
                                         gestion de crédit </span>
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/kaawan.png') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -175,20 +175,20 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/chatcontract.jpg') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
                                 <div class="portfolio-info">
                                     <h3 class="mb-0">
-                                        <a href="" class="portfolio-title">CHATCONTRACT</a>
+                                        <a href="http://chatcontract.legal" class="portfolio-title">CHATCONTRACT</a>
                                     </h3>
                                     <span class="text-white">Chatbot + Application web pour la génération de documents
                                         juridiques en ligne à partir d'un système mi-autonome</span>
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/chatcontract.jpg') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -202,19 +202,19 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/daabaaru.png') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
                                 <div class="portfolio-info">
                                     <h3 class="mb-0">
-                                        <a href="" class="portfolio-title">DAABAARU MOBILE</a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.lightbenin.daabaaru&hl=fr" class="portfolio-title">DAABAARU MOBILE</a>
                                     </h3>
-                                    <span class="text-white">Application mobile pour magazine en ligne</span>
+                                    <span class="text-white">Application mobile pour magazine en ligne & streaming</span>
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/daabaaru.png') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
@@ -228,19 +228,19 @@
                 <div class="popup-gallery portfolio-style">
                     <div class="portfolio-item">
                         <img class="img-responsive img-fluid"
-                            src="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="{{ asset('welcome/images/portfolio/bbn.png') }}"
                             alt="">
                         <div class="portfolio-overlay">
                             <div class="portfolio-description">
                                 <div class="portfolio-info">
                                     <h3 class="mb-0">
-                                        <a href="" class="portfolio-title">BENIN BEST NEWS - BBN</a>
+                                        <a href="https://beninbestnews.bj" class="portfolio-title">BENIN BEST NEWS - BBN</a>
                                     </h3>
                                     <span class="text-white">Site magazine pour le journal BBN</span>
                                 </div>
                                 <div class="portfolio-icon">
                                     <a class="portfolio-img"
-                                        href="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                                        href="{{ asset('welcome/images/portfolio/bbn.png') }}">
                                         <i class="ti-plus"></i>
                                     </a>
                                 </div>
