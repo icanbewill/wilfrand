@@ -12,7 +12,7 @@
         content="Wilfrand, ATCHI, developer, Wilfrand ATCHI, wilfrand.com, Portfolio wilfrand, site web wilfrand">
 
     <meta property="og:title" content="Wilfrand ATCHI | Developer" />
-    <meta property="og:description" content="JavaScript wizard, chaotic good" />
+    <meta property="og:description" content="Développeur 360°, et esprit créatif qui, à l'aide d'un clavier AZERTY essaie de donner vie à vos rêves !" />
     {{-- <meta property="og:image" content="https://example.com/image.jpg"/> --}}
     <meta property="og:url" content="https://wilfrand.com" />
     <meta property="og:type" content="website" />
