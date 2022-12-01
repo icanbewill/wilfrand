@@ -224,8 +224,8 @@
                         <div>
                             <h5> Planète Terre, Continent A.</h5>
                             <p>Retrouvez-moi</p>
-                            {{-- <p>+33 07 51 55 42 15 </p> --}}
                         </div>
+                        <!-- <p> +33 07 51 55 42 15 </p> -->
                     </div>
                 </div>
             </div>
