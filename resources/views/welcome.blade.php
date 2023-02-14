@@ -2,15 +2,15 @@
 
 @section('content')
 
-    <!-- banner section -->
-    <section class="banner-19">
-        <div class="banner-layer">
-            <div id="myVideo">
+        <!-- banner section -->
+        <section class="banner-19">
+            <div class="banner-layer">
+                <div id="myVideo">
 
-            </div>
-            <div class="main-content-top">
-                <div class="container">
-                    <div class="main-content">
+                </div>
+                <div class="main-content-top">
+                    <div class="container">
+                        <div class="main-content">
                         <!-- if logo is image enable this
                                                                     <a class="logo" href="index.html">
                                                                         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
