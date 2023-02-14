@@ -24,3 +24,4 @@ Route::get('/portfolio', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/gbra', [App\Http\Controllers\GeneralController::class, 'gbra'])->name('gbra');
